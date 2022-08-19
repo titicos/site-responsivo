@@ -1,0 +1,24 @@
+@media(max-width:600px){
+
+    header{
+        height: 68px;
+        width: 100%;
+        background-color: #2A2D2F;
+    }
+    .menu{
+        display: none;
+    }
+    .icone-mobile{
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    main{
+        background-image: url("/image/backgroundmobile.png");
+    }
+    .btn_whatsapp{
+        width: 20%;
+        right: 5%;
+        bottom: 10%;
+    }
+}

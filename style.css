@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    background-color: #2A2D2F;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #D9D9D9;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+nav ul{
+    display: flex;
+}
+
+.icone-mobile{
+    display: none;
+}
+
+nav ul li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #1485ED;
+    letter-spacing: 0.1em;
+    padding: 15px 15px;
+}
+
+nav ul li:hover{
+   background-color:#1485ED;
+   color: white;
+   transition: ease-out 1.5s;
+}
+
+
+main{
+    position: relative;
+    width: 100%;
+    height: 1500px;
+    background-image: url("image/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: #2A2D2F;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .redes_sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+footer .redes_sociais h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer .redes_sociais img{
+    width: 33px;
+    height: 32px;
+    margin: 0px 20px;
+}
+
+.btn_whatsapp{
+ position: fixed;
+ bottom: 15%;
+ right: 10%;
+ width: 10%;
+
+ 
+
+}
